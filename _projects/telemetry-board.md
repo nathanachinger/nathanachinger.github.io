@@ -1,17 +1,14 @@
 ---
 title: "Telemetry Board"
-excerpt: "TODO: one-line summary."
+excerpt: "Data acquisition PCB for a solar-powered race car."
 collection: projects
 ---
 
 ## Overview
 
-TODO: what this project is and why it exists.
+The data acquisition board for Flare, UF Solar Gators' fourth solar race car that competed in the 2026 Formula Sun Grand Prix and American Solar Challenge.
 
-## What I built
+## Hardware
 
-TODO: the main pieces of the work (hardware, firmware, software, etc.).
 
-## Links
-
-- TODO: repository, demo, or writeup URL
+## Firmware

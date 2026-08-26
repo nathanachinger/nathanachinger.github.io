@@ -7,12 +7,21 @@ redirect_from:
   - /about.html
 ---
 
-TODO: 2–3 sentences introducing yourself and what you work on.
+I am an electrical engineering student at the University of Florida, graduating in May 2027. I have experience in PCB design, board bring-up, and writing embedded firmware for use with an RTOS.
+
+## Relevant Coursework
+
+- EEL4745: Microprocessor Applications 2 (RTOS course)
+- EEL4720: Reconfigurable Computing
+- EEL4930: Applied Machine Learning
+- EEE4310: VLSI Circuits and Technology 1
+- EEL4242: Power Electronic Circuits
+- EEE4306: Electronic Circuits 2
 
 ## Interests
 
-- TODO: interest one
-- TODO: interest two
-- TODO: interest three
+- Embedded Systems
+- Digital Design
+- Power Electronics
 
 See my [projects](/projects/) for what I’ve been building.
