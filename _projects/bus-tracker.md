@@ -48,9 +48,11 @@ power_gallery:
 
 I created this project because I was tired of checking the bus times on my phone every morning for my stop. This device is intended to be connected to your home Wifi network and sit in the kitchen, displaying the live arrival times for your bus stop.
 
-## Hardware
+{% include project-section-toggle.html %}
 
-[Schematic]({{ site.baseurl }}/images/bus_tracker_schematic.pdf){:target="_blank" rel="noopener"} · [PCB]({{ site.baseurl }}/images/bus_tracker_pcb.pdf){:target="_blank" rel="noopener"}
+<div id="project-section-hardware" class="project-section is-active" data-section="hardware" role="tabpanel" aria-labelledby="project-tab-hardware" markdown="1">
+
+[Schematic]({{ site.baseurl }}/files/bus_tracker_schematic.pdf){:target="_blank" rel="noopener"} · [PCB]({{ site.baseurl }}/files/bus_tracker_pcb.pdf){:target="_blank" rel="noopener"}
 
 ### Wifi Trace Antenna
 
@@ -78,4 +80,8 @@ An LDO converts the 5V USB input to 3.3V for the microcontroller. A linear regul
 
 {% include gallery id="power_gallery" %}
 
-## Firmware
+</div>
+
+<div id="project-section-firmware" class="project-section" data-section="firmware" role="tabpanel" aria-labelledby="project-tab-firmware" hidden markdown="1">
+
+</div>

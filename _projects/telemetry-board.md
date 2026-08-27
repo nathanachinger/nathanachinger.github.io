@@ -2,21 +2,49 @@
 title: "Telemetry Board"
 excerpt: "Data acquisition PCB for a solar-powered race car."
 collection: projects
+gps_gallery:
+  - url: telemetry_board_gps_schematic.png
+    image_path: telemetry_board_gps_schematic.png
+    alt: "GNSS module schematic"
+  - url: telemetry_board_gps_realistic.png
+    image_path: telemetry_board_gps_realistic.png
+    alt: "GNSS module 3D view"
+  - url: telemetry_board_gps_copper.png
+    image_path: telemetry_board_gps_copper.png
+    alt: "GNSS module copper layout"
+radio_gallery:
+  - url: telemetry_board_radio_schematic.png
+    image_path: telemetry_board_radio_schematic.png
+    alt: "900MHz radio transceiver schematic"
+  - url: telemetry_board_radio_realistic.png
+    image_path: telemetry_board_radio_realistic.png
+    alt: "900MHz radio transceiver 3D view"
+  - url: telemetry_board_radio.png
+    image_path: telemetry_board_radio.png
+    alt: "900MHz radio transceiver copper layout"
 ---
 
 ## Overview
 
 The data acquisition board for Flare, UF Solar Gators' fourth solar race car that competed in the 2026 Formula Sun Grand Prix and American Solar Challenge. Responsible for wirelessly transmitting critical data received over the car's CAN bus including main battery cell voltages and temperatures, MPPT power data, and motor controller data. Tracks the vehicles live position and speed through a built in GPS module. The board also monitors the E-stop button input and controls the 12V loads in the rear of the car.
 
-## Hardware
+{% include project-section-toggle.html %}
+
+<div id="project-section-hardware" class="project-section is-active" data-section="hardware" role="tabpanel" aria-labelledby="project-tab-hardware" markdown="1">
+
+[Schematic]({{ site.baseurl }}/files/telemetry_board_schematic.pdf){:target="_blank" rel="noopener"} · [PCB]({{ site.baseurl }}/files/telemetry_board_pcb.pdf){:target="_blank" rel="noopener"}
 
 ### Integrated GNSS Module
 
 The board contains a u-blox Max-M10S GNSS module integrated directly into the PCB with a side-mounted SMA connector. Features a short, impedance-matched trace and a bias tee to provide power for the active antenna. Because of the sensitivity of the signal, the module is housed within an RF shield as a precautionary measure to prevent signal integrity issues. Additionally, the GNSS circuitry was laid out as far as possible from the buck convertors to prevent additional unwanted noise.
 
+{% include gallery id="gps_gallery" %}
+
 ### 900MHz Radio Transceiver
 
 A 900MHz radio transceiver module mounts directly to the PCB and transmits UART packets sent from the MCU over radio to the base station.
+
+{% include gallery id="radio_gallery" %}
 
 ### Dual CAN Bus Network
 
@@ -33,4 +61,8 @@ The large emergency stop button on the top of the car is read by the telemetry b
 ### Power and Protection Circuitry
 The board is powered off the 12V bus of the car and features two buck convertor circuits to generate a 5V and 3.3V supply. Buck convertors were chosen for their high efficiency. The 12V input passes through a p-channel MOSFET for reverse polarity protection and e-fuse for over-current and short-circuit protection.
 
-## Firmware
+</div>
+
+<div id="project-section-firmware" class="project-section" data-section="firmware" role="tabpanel" aria-labelledby="project-tab-firmware" hidden markdown="1">
+
+</div>
