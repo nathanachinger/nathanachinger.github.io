@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Nathan Achinger"
   pronouns         : # example: "she/her"  
-  bio              : "TODO: short biography for the left-hand sidebar"
+  bio              : "Electrical Engineering @ UF"
   location         : # e.g. "City, State"
   employer         : # e.g. "Company or school"
   uri              : # URL
@@ -65,7 +65,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "YOUR-LINKEDIN-USERNAME"
+  linkedin         : "nathan-achinger"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
