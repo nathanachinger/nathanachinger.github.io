@@ -184,4 +184,44 @@ $(document).ready(function () {
     }
   });
 
+  function setProjectSection(section) {
+    const tabs = document.querySelectorAll('.project-section-toggle [role="tab"]');
+    const panes = document.querySelectorAll('.project-section[data-section]');
+    if (!tabs.length || !panes.length) {
+      return;
+    }
+
+    tabs.forEach(function (tab) {
+      const selected = tab.getAttribute('data-section') === section;
+      tab.setAttribute('aria-selected', selected ? 'true' : 'false');
+      tab.tabIndex = selected ? 0 : -1;
+    });
+
+    panes.forEach(function (pane) {
+      const active = pane.getAttribute('data-section') === section;
+      pane.classList.toggle('is-active', active);
+      pane.hidden = !active;
+    });
+  }
+
+  const projectToggle = document.querySelector('.project-section-toggle');
+  if (projectToggle) {
+    projectToggle.addEventListener('click', function (event) {
+      const tab = event.target.closest('[role="tab"]');
+      if (!tab) {
+        return;
+      }
+      const section = tab.getAttribute('data-section');
+      setProjectSection(section);
+      if (history.replaceState) {
+        history.replaceState(null, '', '#' + section);
+      }
+    });
+
+    const fromHash = (location.hash || '').replace('#', '');
+    if (fromHash === 'firmware' || fromHash === 'hardware') {
+      setProjectSection(fromHash);
+    }
+  }
+
 });

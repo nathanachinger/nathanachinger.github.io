@@ -1,0 +1,40 @@
+/* ==========================================================================
+   PROJECT HARDWARE / FIRMWARE TABS
+   ========================================================================== */
+
+.project-section-toggle {
+  display: inline-flex;
+  margin: 2em 0 1.5em;
+  padding: 0.25em;
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+  background-color: var(--global-bg-color);
+}
+
+.project-section-toggle__tab {
+  margin: 0;
+  padding: 0.35em 1.1em;
+  border: 0;
+  border-radius: $border-radius;
+  background: transparent;
+  color: var(--global-text-color);
+  font-family: $header-font-family;
+  font-size: $type-size-4;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 1.2;
+
+  &[aria-selected="true"] {
+    background-color: var(--global-base-color);
+    color: #fff;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--global-base-color);
+    outline-offset: 2px;
+  }
+}
+
+.project-section[hidden] {
+  display: none;
+}
