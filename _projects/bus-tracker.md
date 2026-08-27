@@ -23,6 +23,9 @@ backlight_gallery:
     image_path: bus_tracker_light_sensor_copper.png
     alt: "Light sensor copper layout"
 micro_gallery:
+  - url: bus_tracker_micro_schematic.png
+    image_path: bus_tracker_micro_schematic.png
+    alt: "ESP32-C3 microcontroller schematic"
   - url: bus_tracker_micro_realistic.png
     image_path: bus_tracker_micro_realistic.png
     alt: "ESP32-C3 microcontroller 3D view"
@@ -30,6 +33,9 @@ micro_gallery:
     image_path: bus_tracker_micro_copper.png
     alt: "ESP32-C3 microcontroller copper layout"
 power_gallery:
+  - url: bus_tracker_usb_power_schematic.png
+    image_path: bus_tracker_usb_power_schematic.png
+    alt: "USB power schematic"
   - url: bus_tracker_usb_power_realistic.png
     image_path: bus_tracker_usb_power_realistic.png
     alt: "USB power 3D view"
@@ -59,7 +65,7 @@ A phototransistor senses the ambient light in the room to dynamically adjust the
 {% include gallery id="backlight_gallery" %}
 
 ### Color LCD Display
-
+A color LCD display is connected over SPI
 
 ### Microcontroller
 
