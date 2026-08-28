@@ -2,6 +2,16 @@
 title: "Bus Tracker"
 excerpt: "Custom IOT device for live display of bus stop arrival times."
 collection: projects
+overview_gallery:
+  - url: bus_tracker.png
+    image_path: bus_tracker.png
+    alt: "Bus Tracker display showing live arrivals"
+  - url: bus_tracker_front_view.png
+    image_path: bus_tracker_front_view.png
+    alt: "Bus Tracker front view"
+  - url: bus_tracker_top_view.png
+    image_path: bus_tracker_top_view.png
+    alt: "Bus Tracker top view"
 antenna_gallery:
   - url: bus_tracker_antenna_schematic.png
     image_path: bus_tracker_antenna_schematic.png
@@ -48,6 +58,8 @@ power_gallery:
 
 I created this project because I was tired of checking the bus times on my phone every morning for my stop. This device is intended to be connected to your home Wifi network and sit in the kitchen, displaying the live arrival times for your bus stop.
 
+{% include gallery id="overview_gallery" %}
+
 {% include project-section-toggle.html %}
 
 <div id="project-section-hardware" class="project-section is-active" data-section="hardware" role="tabpanel" aria-labelledby="project-tab-hardware" markdown="1">
@@ -66,9 +78,6 @@ A phototransistor senses the ambient light in the room to dynamically adjust the
 
 {% include gallery id="backlight_gallery" %}
 
-### Color LCD Display
-A color LCD display is connected over SPI
-
 ### Microcontroller
 
 Uses an ESP32-C3 microcontroller for its modern architecture, low power consumption, wireless connectivity, integrated USB to JTAG programmer, and low cost. Paired with a 4Mb external SPI flash for program storage.
@@ -79,6 +88,11 @@ Uses an ESP32-C3 microcontroller for its modern architecture, low power consumpt
 An LDO converts the 5V USB input to 3.3V for the microcontroller. A linear regulator was chosen for its simplicity and because of the small drop required between the input and output voltages.
 
 {% include gallery id="power_gallery" %}
+
+### Color LCD Display
+A color LCD display is connected over SPI.
+
+![Color LCD display]({{ site.baseurl }}/images/bus_tracker_display.png){: .project-inline-image}
 
 </div>
 
