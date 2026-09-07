@@ -2,6 +2,7 @@
 title: "Process Control Lab Board"
 excerpt: "Designed for the Chemical Engineering Department to teach fundamental control theory concepts."
 collection: projects
+tags: [hardware]
 header:
   teaser: pwcl_custom_board_close_up.png
 overview_gallery:
@@ -30,12 +31,5 @@ The lab kits for ECH4323L: Process Control Laboratory were built from an Arduino
 {% include gallery id="overview_gallery" %}
 
 [Schematic]({{ site.baseurl }}/files/pwcl_schematic.pdf){:target="_blank" rel="noopener"} · [PCB]({{ site.baseurl }}/files/pwcl_pcb.pdf){:target="_blank" rel="noopener"}
-
-### Fan Control
-
-### Temperature Sensor
-
-### SSR Control
-
 
 {% include gallery id="feature_gallery" %}

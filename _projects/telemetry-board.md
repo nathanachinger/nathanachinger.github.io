@@ -2,6 +2,7 @@
 title: "Telemetry Board"
 excerpt: "Data acquisition PCB for a solar-powered race car."
 collection: projects
+tags: [hardware, firmware]
 header:
   teaser: telemetry_board.png
 gps_gallery:

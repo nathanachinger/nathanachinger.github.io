@@ -1,0 +1,7 @@
+{% if post.tags and post.tags.size > 0 %}
+  <ul class="project-tags">
+    {% for tag in post.tags %}
+      <li class="project-tag">{{ tag | capitalize }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
