@@ -2,6 +2,8 @@
 title: "Bus Tracker"
 excerpt: "Custom IOT device for live display of bus stop arrival times."
 collection: projects
+header:
+  teaser: bus_tracker_front_view.png
 overview_gallery:
   - url: bus_tracker.png
     image_path: bus_tracker.png
