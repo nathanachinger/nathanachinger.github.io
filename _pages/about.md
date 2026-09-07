@@ -12,11 +12,14 @@ I am an electrical engineering student at the University of Florida, graduating 
 ## Relevant Coursework
 
 - EEL4745: Microprocessor Applications 2 (RTOS course)
-- EEL4720: Reconfigurable Computing
+- EEL4837 Programming for Electrical Engineers 2 (DSA course)
+- EEL4720: Reconfigurable Computing <span class="course-status">in progress</span>
+- EEL4712: Digital Design
 - EEL4930: Applied Machine Learning
-- EEE4310: VLSI Circuits and Technology 1
-- EEL4242: Power Electronic Circuits
-- EEE4306: Electronic Circuits 2
+- EEE4310: VLSI Circuits and Technology 1 <span class="course-status">in progress</span>
+- EEL4242: Power Electronic Circuits <span class="course-status">in progress</span>
+- EEE4306: Electronic Circuits 2 <span class="course-status">in progress</span>
+- EEE3308: Electronic Circuits 1
 
 ## Interests
 

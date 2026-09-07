@@ -1,6 +1,6 @@
 # Nathan Achinger
 
-Personal portfolio site at [nathanachinger.github.io](https://nathanachinger.github.io), built with [Jekyll](https://jekyllrb.com) and the [Academic Pages](https://github.com/academicpages/academicpages.github.io) theme (MIT, a fork of [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/)).
+Personal portfolio site at [nathanachinger.com](https://nathanachinger.com), built with [Jekyll](https://jekyllrb.com) and the [Academic Pages](https://github.com/academicpages/academicpages.github.io) theme (MIT, a fork of [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/)).
 
 ## Run locally
 

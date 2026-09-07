@@ -1,0 +1,20 @@
+/* ==========================================================================
+   COURSEWORK STATUS BADGES
+   ========================================================================== */
+
+.course-status {
+  display: inline-block;
+  margin-left: 0.55em;
+  padding: 0.12em 0.5em;
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+  background-color: var(--global-footer-bg-color);
+  color: var(--global-text-color-light);
+  font-size: $type-size-7;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  vertical-align: middle;
+  white-space: nowrap;
+}
