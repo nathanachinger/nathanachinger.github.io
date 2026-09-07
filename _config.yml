@@ -13,7 +13,7 @@ title                    : "Nathan Achinger"
 title_separator          : "-"
 name                     : &name "Nathan Achinger"
 description              : &description "Nathan Achinger's personal portfolio"
-url                      : https://nathanachinger.github.io
+url                      : https://nathanachinger.com
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "nathanachinger/nathanachinger.github.io"
 
