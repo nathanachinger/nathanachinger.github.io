@@ -21,6 +21,7 @@ Then open [http://localhost:4000](http://localhost:4000). Changes to Markdown an
 title: "My New Project"
 excerpt: "One-line summary."
 collection: projects
+tags: [hardware, firmware]
 ---
 ```
 
