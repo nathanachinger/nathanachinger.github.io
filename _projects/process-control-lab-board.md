@@ -4,13 +4,13 @@ excerpt: "Designed for the Chemical Engineering Department to teach fundamental 
 collection: projects
 tags: [hardware]
 header:
-  teaser: pwcl_custom_board_close_up.png
+  teaser: pwcl_custom_board_close_up.jpg
 overview_gallery:
-  - url: pwcl_custom_board_close_up.png
-    image_path: pwcl_custom_board_close_up.png
+  - url: pwcl_custom_board_close_up.jpg
+    image_path: pwcl_custom_board_close_up.jpg
     alt: "Process Control Lab Board close-up"
-  - url: pwcl_existing_lab_kit.png
-    image_path: pwcl_existing_lab_kit.png
+  - url: pwcl_existing_lab_kit.jpg
+    image_path: pwcl_existing_lab_kit.jpg
     alt: "Existing process control lab kit"
 # feature_gallery:
 #   - url: process_control_lab_board_feature_schematic.png

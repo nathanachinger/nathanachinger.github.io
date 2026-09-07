@@ -4,16 +4,16 @@ excerpt: "Custom IOT device for live display of bus stop arrival times."
 collection: projects
 tags: [hardware, firmware]
 header:
-  teaser: bus_tracker_front_view.png
+  teaser: bus_tracker_front_view.jpg
 overview_gallery:
-  - url: bus_tracker.png
-    image_path: bus_tracker.png
+  - url: bus_tracker.jpg
+    image_path: bus_tracker.jpg
     alt: "Bus Tracker display showing live arrivals"
-  - url: bus_tracker_front_view.png
-    image_path: bus_tracker_front_view.png
+  - url: bus_tracker_front_view.jpg
+    image_path: bus_tracker_front_view.jpg
     alt: "Bus Tracker front view"
-  - url: bus_tracker_top_view.png
-    image_path: bus_tracker_top_view.png
+  - url: bus_tracker_top_view.jpg
+    image_path: bus_tracker_top_view.jpg
     alt: "Bus Tracker top view"
 antenna_gallery:
   - url: bus_tracker_antenna_schematic.png

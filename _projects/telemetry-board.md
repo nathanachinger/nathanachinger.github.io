@@ -4,7 +4,7 @@ excerpt: "Data acquisition PCB for a solar-powered race car."
 collection: projects
 tags: [hardware, firmware]
 header:
-  teaser: telemetry_board.png
+  teaser: telemetry_board.jpg
 gps_gallery:
   - url: telemetry_board_gps_schematic.png
     image_path: telemetry_board_gps_schematic.png
@@ -31,7 +31,7 @@ radio_gallery:
 
 The data acquisition board for Flare, UF Solar Gators' fourth solar race car that competed in the 2026 Formula Sun Grand Prix and American Solar Challenge. Responsible for wirelessly transmitting critical data received over the car's CAN bus including main battery cell voltages and temperatures, MPPT power data, and motor controller data. Tracks the vehicles live position and speed through a built in GPS module. The board also monitors the E-stop button input and controls the 12V loads in the rear of the car.
 
-![Telemetry Board]({{ site.baseurl }}/images/telemetry_board.png){: .project-overview-image}
+![Telemetry Board]({{ site.baseurl }}/images/telemetry_board.jpg){: .project-overview-image}
 
 {% include project-section-toggle.html %}
 
